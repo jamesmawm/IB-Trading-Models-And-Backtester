@@ -22,9 +22,9 @@ How To
 =============
 - Connecting to IB and getting live ticks in 3 simple steps:
 ``` 
-  self.ibhft = ibHFT.IbHFT()
-  self.ibhft.set_connection_with_api_gateway(False)
-  self.ibhft.start_data_stream(self.on_started
+self.ibhft = ibHFT.IbHFT()
+self.ibhft.set_connection_with_api_gateway(False)
+self.ibhft.start_data_stream(self.on_started
                                  , self.on_tick
                                  , STOCKS_TO_STREAM
                                  , self.on_position_changed)
