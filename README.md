@@ -13,7 +13,7 @@ Features
 Strategies
 =============
 - Strat-Pairs.py: Pairs trading through cointegration, using OLS and Pandas.
-- Strat-LmtOrdrs.py: Limit-order based strategy. Works with backtester.
+- Strat-LmtOrdrs.py: Limit-order based strategy with GUI dashboard. Works with backtester.
 - Strat-CorrelRptr.py: Stores ticks in a dataframe and reports the correlations.
 
 
